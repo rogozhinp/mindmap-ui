@@ -1,0 +1,23 @@
+# Gradle
+.gradle
+build/
+!**/src/**/build/
+
+# IntelliJ IDEA
+.idea/
+.kotlin/
+*.iml
+*.iws
+*.ipr
+out/
+
+# macOS
+.DS_Store
+
+# Compose Desktop / Native
+/build/compose/binaries/
+/build/compose/packages/
+
+# Local configuration
+local.properties
+.kover
